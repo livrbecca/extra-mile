@@ -1,0 +1,206 @@
+/* custom styles here */
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #000000;
+  height: 130px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding: 55px;
+  text-align: center;
+  font-family: "Josefin Slab";
+  font-weight: 700;
+}
+
+li a:hover {
+  font-size: 26px;
+}
+
+.move-right {
+  position: relative;
+  left: 980px;
+  top: -250px;
+}
+
+.move-left {
+  position: relative;
+  left: 300px;
+}
+
+.logo-div {
+  width: fit-content;
+  margin: auto;
+  padding: 0;
+}
+
+.cheese-logo {
+  border: solid 25px black;
+  background-color: black;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* ISSUE, background positioning not 100%
+rest of this section's position is slightly off margin till solved
+*/
+
+.cheese1 {
+  background-image: url("/assets/main.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+}
+
+h1 {
+  color: white;
+  font-family: "Josefin Slab";
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 25%;
+  left: 36.4%;
+  transform: translate(-50%, -50%);
+  padding-top: 2px;
+}
+
+.rustic-border {
+  position: relative;
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+}
+
+.knives {
+  background-color: none;
+  width: 90px;
+  height: 105px;
+  position: relative;
+  top: 117px;
+  left: 340px;
+}
+
+/* ABOUT section  */
+.about {
+  height: 82vh;
+  background-image: url(/assets/yellow-dotted.png);
+  color: white;
+  text-align: center;
+}
+
+.faded-knife {
+  filter: invert(10);
+  width: 250px;
+  height: 350px;
+  position: relative;
+  top: -300px;
+}
+
+.qtBox {
+  width: 1300px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.212);
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -289px;
+}
+
+.twtbird {
+  position: relative;
+  top: -300px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*  */
+
+/* background needs correct positioning */
+.shutter-stock {
+  height: 90vh;
+  background-image: url(/assets/image3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.b-board {
+  background-image: url(/assets/bboard.jpg);
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+table {
+  color: white;
+  font-family: "Josefin Slab";
+  font-size: 26px;
+  text-align: center;
+  position: relative;
+  left: 80px;
+  bottom: 320px;
+  width: 1500px;
+}
+
+td {
+  padding: 6px;
+}
+
+td:first-child {
+  border-right: dotted 2px white;
+}
+
+.c-b {
+  position: relative;
+  left: 6.5%;
+  top: 15%;
+  width: 1450px;
+  height: 500px;
+}
+
+.header-board {
+  font-weight: bolder;
+  position: relative;
+  left: 50%;
+  top: 10%;
+}
+
+.cheese-txt {
+  color: white;
+  /* border: solid 3px pink; */
+  width: 1000px;
+  text-align: center;
+  position: relative;
+  left: 25%;
+  top: 10%;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Josefin Slab";
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.about p {
+    font-size: 25px;
+    padding: 20px;
+}
